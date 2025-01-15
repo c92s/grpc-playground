@@ -1,0 +1,7 @@
+syntax = "proto3";
+package engine;
+
+service Greeter { rpc HelloEngine(HelloEngineRequest) returns (HelloEngineReply); }
+
+message HelloEngineRequest { string name = 1; }
+message HelloEngineReply { string message = 1; }
