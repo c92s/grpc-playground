@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pkill -f server-earth
+pkill -f server
 pkill -f server-mars
 
 # build everything

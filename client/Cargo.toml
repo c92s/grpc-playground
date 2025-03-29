@@ -1,6 +1,6 @@
 [package]
 name = "client"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
 prost = "0.13.4"
@@ -9,6 +9,7 @@ tonic = "0.12.3"
 tokio-util = "0.7.12"
 crossbeam-channel = "0.5"
 ctrlc = "3.4.5"
+thiserror = "2.0.12"
 
 [build-dependencies]
 tonic-build = "0.12.3"

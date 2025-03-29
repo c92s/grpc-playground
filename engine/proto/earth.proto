@@ -1,7 +1,0 @@
-syntax = "proto3";
-package earth;
-
-service Greeter { rpc HelloEarth(HelloEarthRequest) returns (HelloEarthReply); }
-
-message HelloEarthRequest { string name = 1; }
-message HelloEarthReply { string message = 1; }
